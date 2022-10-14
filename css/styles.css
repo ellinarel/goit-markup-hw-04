@@ -442,6 +442,38 @@ margin-right: 0px;
     margin-right: 0px;
 }
 
+.social-links-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-inline-start:0;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 18px;
+   
+    
+    
+}
+.social-links-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 12px;
+}
+.social-links-icon:hover{
+background-color: var(--accent-color);
+}
+.social-links-icon:hover .socicon{
+    fill: var(--background-color);
+}
+
+.socicon{
+     fill: var(--primary-text-color);
+     
+    }
+
+
+
 footer {
     background-color: var(--background-color-footer);
 }

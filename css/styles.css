@@ -112,6 +112,7 @@ html {
     margin:0 0 0 auto;
     padding-inline-start:0;
     
+    
 }
 .item-part + .item-part{
     margin-left: 50px;
@@ -119,6 +120,7 @@ html {
 
 
 .link-part {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -130,22 +132,15 @@ html {
     align-items: center;
     color: var(--primary-text-color);
     gap: 10px;
-    fill: var(--accent-color);
-
+    
 }
     
 
 .link-part:hover,
 .link-part:focus {
     color: var(--accent-color);
-    fill: var(--accent-color);
+    fill: currentColor;
 }
-
-
-
-
-
-
 
 
  .hero {
@@ -153,6 +148,7 @@ html {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../images/Imghero.jpg);
     
 
 

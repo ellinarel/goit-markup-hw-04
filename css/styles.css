@@ -107,40 +107,45 @@ html {
 
 
 .site-nav-secondary {
-    list-style-type: none;
+    list-style: none;
     display: flex;
     margin:0 0 0 auto;
     padding-inline-start:0;
+    
 }
 .item-part + .item-part{
     margin-left: 50px;
 }
 
 
-
-
 .link-part {
     display: flex;
+    justify-content: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+    color: var(--primary-text-color);
+    gap: 10px;
+    fill: var(--accent-color);
+
 }
-.icon-nav{
-    fill: var(--primary-text-color);
-    margin-right: 10px;
-}
+    
 
 .link-part:hover,
-.link-part:focus .icon-nav{
+.link-part:focus {
     color: var(--accent-color);
-    fill: currentColor;
+    fill: var(--accent-color);
 }
+
+
+
+
+
+
 
 
  .hero {

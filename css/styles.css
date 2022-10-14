@@ -118,6 +118,7 @@ html {
 
 
 
+
 .link-part {
     display: flex;
     font-weight: 500;
@@ -128,12 +129,17 @@ html {
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
+}
+.icon-nav{
+    fill: var(--primary-text-color);
+    margin-right: 10px;
 }
 
 .link-part:hover,
-.link-part:focus {
+.link-part:focus .icon-nav{
     color: var(--accent-color);
-    
+    fill: currentColor;
 }
 
 

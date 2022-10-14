@@ -239,16 +239,14 @@ main .container{
     margin: -1px;
 }
 .benefits-icon-list{
-        display: flex;
-        justify-content: center;
-
-       
-        align-items: center;
-        list-style: none;
-        margin-block-start:0;
-        margin-block-end:0;
-        padding-inline-start: 0;
-        margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-block-start:0;
+    margin-block-end:0;
+    padding-inline-start: 0;
+    margin-bottom: 30px;
 
 }
 .benefits-list-part{

@@ -11,6 +11,7 @@
     --herobuttonactive: #188CE8;
     --boxborder: #EEEEEE;
     --iconcolor:#AFB1B8;
+    
 
 }
 
@@ -473,13 +474,7 @@ margin-right: 0;
    
   
 }
-/*.social-links-icon:hover {
-background-color: var(--accent-color);
-}
-.social-links-icon:hover .socicon{
-fill: var(--background-color);
-}
-*/
+
 
 .sociconlink{
 display: flex;
@@ -566,11 +561,26 @@ height: 92px;
 
 footer {
     background-color: var(--background-color-footer);
+    background-size: 1600px;
+    max-width: 1600px;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
+   
+}
+.footerbox{
+    display: flex;
+    align-items: baseline;
+    
+
+}
+.footerbox-one + .footerbox-two{
+    margin-left: 70px;
+
 }
  .container{
     width: 1200px;
@@ -645,6 +655,28 @@ footer {
 .addresslinktwo:hover,
 .addresslinktwo:focus {
     color: var(--accent-color);
+}
+
+.footer-title{
+    color: var(--background-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footerbox-two .social-links-list{
+    margin:0;
+    
+}
+.footerbox-two .sociconlink {
+    background-color:rgba(255, 255, 255, 0.1);
+    fill: var(--background-color);
+}
+.footerbox-two .sociconlink:hover,
+.footerbox-two .sociconlink:focus{
+    background-color: var(--accent-color);
 }
 
 .maincontent{

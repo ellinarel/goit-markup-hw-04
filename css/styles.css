@@ -465,10 +465,6 @@ margin-right: 0;
    
   
 }
-.socicon{
-    fill: var(--iconcolor);
-}
-
 
 .sociconlink{
 display: flex;
@@ -477,8 +473,7 @@ justify-content: center;
 width:100%; ;
 height: 100%;
 border-radius: 50%;
-fill: var(--primary-text-color);
-
+fill: var(--iconcolor);
 background-color: var(--background-color);
 }
 
